@@ -7,10 +7,10 @@ def find_even_values(src)
   while idx < src.length do 
     inner_idx = 0
     inner_array = src[idx]
-    while inner_count < inner_count.length do
-      puts inner_array[inner_count]
-      inner_count += 1
+    while inner_idx < inner_array.length do
+      puts inner_array[inner_idx]
+      inner_idx += 1
     end
-    inner_count += 1
+    idx += 1
   end
 end
