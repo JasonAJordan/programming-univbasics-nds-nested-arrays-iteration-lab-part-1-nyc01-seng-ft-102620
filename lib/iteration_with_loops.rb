@@ -5,8 +5,8 @@ def find_even_values(src)
   idx = 0
   
   while idx < src.length do 
-    inner_count = 0
-    inner_array = src[count]
+    inner_idx = 0
+    inner_array = src[idx]
     while inner_count < inner_count.length do
       puts inner_array[inner_count]
       inner_count += 1
